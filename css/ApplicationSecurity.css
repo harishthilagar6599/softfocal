@@ -1,0 +1,41 @@
+.app-sec-cont {
+    width: 90%;
+    margin: 0% 5%;
+    padding-bottom: 35px;
+}
+
+
+.app-sec-cont .aboutpage-acontent{
+    width: 100%;
+    text-align: justify;
+    margin: 0px;
+}
+
+.app-sec-cont .about-heading{
+    margin: 0px;
+}
+
+.appliction-sec-cont{
+    padding: 15px 0px 15px 0px;
+    background-color: #fff;
+}
+.app-sec-firstdiv{
+    padding: 40px 0px 0px 0px !important;
+}
+.appliction-sec-cont>.aboutus-head{
+    flex-basis: 100%;
+    padding: 15px 0px 15px 0px; 
+}
+.appliction-sec-cont>.aboutus-head>.about-content>ul{
+    margin-left: 3%;
+}
+.appliction-sec-cont>.aboutus-head>.about-content>ul>li{
+    color: rgb(0,0,0,0.450) !important;
+    font-weight: 500 !important;
+}
+
+@media(max-width:765px){
+    .appliction-sec-cont>.aboutus-head>.about-content>ul{
+        margin-left: 0%;
+    }
+}

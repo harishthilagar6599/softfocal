@@ -1,0 +1,86 @@
+.digital-cont2>div{
+    background-color: #fff;
+}
+
+.digital-cont2>div>.serv-content-div1{
+    flex-basis: 100%;
+}
+
+.digital-cont2>div>.serv-content-div1>.serv-d1content>ul{
+    font-weight: 500;
+    color: var(--softfocalTextColor1);
+}
+
+.digital-cont2>div>.serv-content-div1>div{
+    margin-left: 5%;
+}
+
+.digital-cont3>.serv-img-cont>div:last-child{
+    flex-wrap: wrap;
+   flex-basis: 89%;
+   justify-content: space-between;
+}
+
+.digital-cont3>.serv-img-cont>div:last-child>div{
+    flex-basis: 30%;
+    margin-bottom:50px;
+}
+
+.digital-cont4{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 40px 0px;
+}
+
+.mob-app-cont5 .app_market_accordion{
+    flex-basis: 100% !important;
+}
+
+.digital-cont4>div{
+    width: 100% ;
+}
+
+.grov_dig_markt_cont4{
+    width: 89%;
+    margin-left: 5.5%;
+}
+
+.digital-cont4 .accordion-header>.accordion-button {
+    background-color: var(--softfocalColor2);
+    color: #ffff;
+    font-weight: bold;
+    text-align: start;
+}
+
+.digital-cont4 .accordion-header>.collapsed{
+    background-color: var(--softfocalColor1);
+    color: #ffff;
+    font-weight: bold;
+    text-align: start;
+}
+.digital-cont4 .accordion-header>.accordion-button::after{
+    display: none !important;
+}
+.digital-cont4>div>div>label{
+    margin: 0px;
+}
+.digital-cont4>div>div>label>input{
+    display: none;
+}
+
+@media (max-width:765px) {
+    .digital-cont2>div>.serv-content-div1>div{
+        margin-left: 0px;
+    }    
+    .digital-cont3>.serv-img-cont>div:last-child>div{
+        flex-basis: 80%;
+    }
+    .digital-cont3>.serv-img-cont>div:last-child {
+        justify-content: space-around;
+    }
+}
+
+.digital-cont1>div>.serv-content-div1:first-child>div{
+    width: 91.5%;
+    margin-left: 8.5%;
+}

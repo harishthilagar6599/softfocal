@@ -1,0 +1,22 @@
+.staff-cont3>div>div:last-child>div{
+    flex-basis: 30%;
+}
+.staff-cont3>div>div:last-child>div>div>p{
+    width: 80%;
+     text-align: center;
+    margin-left: 10% !important; 
+}
+
+
+@media (min-width:765px) {
+    .it-staffing-div1>div{
+        margin-left: 8.5%;
+        width: 91.5%;
+    }   
+}
+
+@media (max-width:765px) {
+    .staff-cont3>div>div:last-child>div{
+        flex-basis: 80%;
+    }    
+}

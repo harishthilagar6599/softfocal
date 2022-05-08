@@ -1,0 +1,140 @@
+.aboutpage-acont{
+    padding: 90px 0px 0px 0px;
+    /* width: 95%; */
+    padding-right: 5%;
+}
+.aboutpage-acont2{
+    width: 100%;
+    padding: 0px 0px 90px 0px;
+}
+
+.aboutpage-acont>.aboutus-head{
+    margin-left: 3%;
+    text-align: justify;
+}
+.aboutpage-acont>.about-content>p{
+    display: flex;
+}
+
+.aboutpage-acont2>.about-content{
+    padding-top: 10px;
+    margin-left: 6%;
+    width: 89%;
+    text-align: justify;
+}
+
+.aboutpage-acontent{
+    padding-top: 10px;
+    margin-left: 5%;
+    width: 90%;
+    text-align: justify;
+}
+
+.aboutpage-acontent>p:first-child{
+    font-weight: 500;
+    color: var(--softfocalTextColor1);
+}
+
+.aboutpage-head{
+    padding-bottom:0px ;
+}
+.aboutpage-mission{
+    padding: 90px 0px 90px 0px;
+    display: flex;
+    padding-right: 5%;
+}
+
+.aboutpage-div1{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.aboutpage-div1>img{
+    width: 70%;
+}
+.aboutpage-over-cont{
+  padding: 25px 0px 0px 0px;
+  margin-left: 8%;
+}
+.aboutpage-over-cont>ul>li{
+    font-weight: 500;
+    color: var(--softfocalTextColor1);
+    font-size: 16px;
+}
+
+.aboutpage-overview>.aboutus-head{
+    margin-left: 3%;
+    text-align: justify;
+}
+
+@media (max-width:993px) {
+    .aboutpage-acont{
+        padding-right: 0%;
+    }
+    .aboutpage-acont>.aboutus-head{
+        margin-left: 0%;
+    }
+}
+
+@media (max-width:769px) {
+    .aboutpage-acont2>.about-content{
+        width: 89%;
+    }
+}
+@media (max-width:765px) { 
+    .aboutpage-overview>.aboutus-head{
+        margin-left: 0%;
+    }
+    .aboutpage-acont2,
+    .aboutpage-acont{
+        padding: 20px 0px 0px 0px;
+    }
+
+    .aboutpage-mission{
+        display: grid;
+        padding: 30px 0px 0px 0px;
+    }
+
+    .aboutpage-mission>div:first-child{
+        padding-bottom: 15px;
+    }
+
+    .aboutpage-over-cont {
+        width: 91%;
+        margin-left: 2%;
+    }
+}
+
+
+/* solutions */
+
+.digital-marketing-cont {
+    width: 100%;
+    /* padding: 0% 5%; */
+}
+
+.digital-marketing-cont .aboutus-head{
+    margin: 0% 5% ;
+    width: 90% ;
+}
+
+.digital-marketing-cont .about-content{
+    width: 95%;
+}
+.digital-marketing-cont .aboutpage-acontent{
+    width: 100%;
+    text-align: justify;
+    margin: 0px;
+}
+
+.digital-marketing-cont .about-heading{
+    margin: 0px;
+    width: 100%;
+}
+
+
+.aboutpage-bcontent>p:first-child{
+    font-weight: 500;
+    color: var(--softfocalTextColor1);
+    font-size: 16px;
+}
